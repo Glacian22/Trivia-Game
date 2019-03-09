@@ -65,7 +65,11 @@ $(document).ready(function () {
             } else {
                 wrong++;
                 if (right + wrong === gameLength) {
-                    $(".timer").text("You got " + right + " right! Play again?");
+                    if (wrong === gameLength) {
+                        $(".timer").text("0? That's just...wow. Try again, I believe in you, boo!");
+                    } else {
+                        $(".timer").text("You got " + right + " right! Play again?");
+                    }
                     gameState = "done";
                 } else {
                     $(".timer").text("That's a nope! Try the next question?");
