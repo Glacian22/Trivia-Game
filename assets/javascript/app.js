@@ -82,7 +82,6 @@ $(document).ready(function () {
 
             //activate hover for the ready button
             $(".timer").attr("id", "hovr");
-
         }
     })
 
@@ -162,7 +161,5 @@ $(document).ready(function () {
         $(".question-box").empty();
         $(".ready").show();
         $(".timer").attr("id", "hovr");
-
     }
-
 });
