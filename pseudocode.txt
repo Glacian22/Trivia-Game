@@ -1,0 +1,18 @@
+create HTML skeleton
+    question box (jumbotron?)
+    timer field
+    answer spans
+
+javascript:
+    array of questions paired with right and wrong answers, objects?
+    pull question object from array 
+    display in box and answer spans 
+    set var with settimeout for 10 seconds,
+        if answered correctly, increment score, cancel timer
+        display new question
+
+        if answered incorrectly, same but don't increment score
+
+        if not answered, same as incorrect
+
+after all questions asked, end game, display score, offer restart button 
